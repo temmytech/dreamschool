@@ -11,7 +11,7 @@
 } */
 
 .header {
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.png);
     background-position: center;
@@ -221,7 +221,7 @@ h3 {
     .nav-link {
         position: absolute;
         background: #f44336;
-        height: 100vh;
+        height: 50vh;
         width: 200px;
         top: 0;
         right: -200px;
