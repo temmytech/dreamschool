@@ -11,7 +11,7 @@
 } */
 
 .header {
-    min-height: 50vh;
+    min-height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.png);
     background-position: center;
@@ -61,7 +61,7 @@ nav img {
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -248,5 +248,8 @@ h3 {
     }
     .row {
         flex-direction: column;
+    }
+    .header {
+        min-height: 65vh;
     }
 }
