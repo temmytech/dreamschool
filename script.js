@@ -1,12 +1,12 @@
 // <!-- -----Javascript for toogle----- -->
 
-var navLinks = document.getElementById("navLinks");
+var NavLinks = document.getElementById("navLinks");
 
 function showMenu() {
-    navLinks.style.right = "0";
-    navLinks.style.display = "block";
+    NavLinks.style.right = "0";
+    NavLinks.style.display = "block";
 }
 
 function hideMenu() {
-    navLinks.style.display = "none ";
+    NavLinks.style.display = "none ";
 }
